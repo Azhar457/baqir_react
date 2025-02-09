@@ -78,14 +78,14 @@ export default function Home() {
           </div>
           <a
             href="#section3"
-            className="mb-2 px-4 py-2 bg-red-800 text-white font-bold rounded-full text-lg font-poppins"
+            className="mb-2 px-4 py-2 bg-red-800 text-white font-bold rounded-full text-sm text-center font-poppins"
           >
             Sejarah Perkembangan Islam
           </a>
         </div>
       </section>
       <section id="section3">
-        <div className="h-screen w-full bg-red-800 flex flex-col items-center justify-center text-white">
+        <div className="h-auto w-full bg-red-800 flex flex-col items-center justify-center text-white">
           <h1 className="three text-3xl md:text-4xl font-bold font-poppins text-red-800 tracking-wide drop-shadow-md text-center">
             SEJARAH <br />
             PERKEMBANGAN ISLAM
