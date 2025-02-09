@@ -1,0 +1,14 @@
+:root
+{
+  background-color: white;
+}
+
+.one
+{
+  -webkit-text-stroke:white 2px
+}
+
+.two
+{
+  -webkit-text-stroke:rgb(153 27 27 / var(--tw-text-opacity, 1)) 2px
+}
