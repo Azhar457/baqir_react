@@ -25,12 +25,12 @@ export default function Navbar() {
   const location = useLocation(); // Ambil lokasi halaman saat ini
 
   return (
-    <Disclosure as="nav" className="sticky top-0 bg-gray-800">
+    <Disclosure as="nav" className="sticky top-0 bg-red-800">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button */}
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-red-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <Bars3Icon
                 aria-hidden="true"
                 className="block size-6 group-data-[open]:hidden"
@@ -44,9 +44,9 @@ export default function Navbar() {
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
               <img
-                alt="Your Company"
-                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
+                alt="Youtube Icon"
+                src="/vite.svg"
+                className="h-8 w-auto bg-white rounded-full"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -57,8 +57,8 @@ export default function Navbar() {
                     to={item.href}
                     className={classNames(
                       location.pathname === item.href
-                        ? "text-white"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        ? "text-white bg-red-700"
+                        : "text-white hover:bg-red-700 hover:text-white",
                       "rounded-md px-3 py-2 text-sm font-medium"
                     )}
                   >
@@ -69,16 +69,16 @@ export default function Navbar() {
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button
+            {/* <button
               type="button"
-              className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              className="relative rounded-full bg-red-800 p-1 text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
             >
               <BellIcon aria-hidden="true" className="size-6" />
-            </button>
+            </button> */}
 
             {/* Profile dropdown */}
-            <Menu as="div" className="relative ml-3">
-              <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+            {/* <Menu as="div" className="relative ml-3">
+              <MenuButton className="relative flex rounded-full bg-red-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -111,7 +111,7 @@ export default function Navbar() {
                   </Link>
                 </MenuItem>
               </MenuItems>
-            </Menu>
+            </Menu> */}
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function Navbar() {
               className={classNames(
                 location.pathname === item.href
                   ? "text-white"
-                  : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                  : "text-white hover:bg-red-700 hover:text-white",
                 "block rounded-md px-3 py-2 text-base font-medium"
               )}
             >
