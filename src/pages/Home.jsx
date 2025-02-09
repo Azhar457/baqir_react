@@ -57,7 +57,7 @@ export default function Home() {
 
       <section id="section2" className="h-auto w-full bg-white">
         <div>
-          <h1 className="two pt-2 text-3xl md:text-4xl text-white font-bold font-poppins tracking-wide drop-shadow-md text-center border-red-800 border-b-4 pb-4 place-self-center">
+          <h1 className="two pt-2 text-2xl md:text-3xl text-white font-bold font-poppins tracking-wide drop-shadow-md text-center border-red-800 border-b-4 pb-4 place-self-center">
             SEJARAH <br />
             PERKEMBANGAN ISLAM
           </h1>
