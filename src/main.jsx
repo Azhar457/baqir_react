@@ -11,25 +11,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
-import Preloader from "./components/Preloader";
+// import Preloader from "./components/Preloader";
 import "./index.css";
 
 const Main = () => {
-  const [loading, setLoading] = useState(true);
-  const location = useLocation();
-
-  useEffect(() => {
-    setLoading(true);
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 700); // Adjust the timeout as needed
-
-    return () => clearTimeout(timer);
-  }, [location]);
-
   return (
     <>
-      {loading && <Preloader />}
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/home" element={<Home />} />
