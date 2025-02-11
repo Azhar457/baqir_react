@@ -9,13 +9,13 @@ import Rizkiman from "../assets/rizkiman.jpg";
 import GroupMember from "../components/GroupMember";
 export default function Home() {
   const members = [
-    { image: Baqir, name: "Muhammad Rafa El-Baqir", nim: "23533730" },
-    { image: Rifaldy, name: "Muhammad Rifaldy", nim: "23533730" },
-    { image: Ibra, name: "Mohammed Ibra Rusel", nim: "23533730" },
-    { image: Rizkiman, name: "Muhammad Rizkiman", nim: "23533730" },
-    { image: Hidayat, name: "Muhammad Hidayat", nim: "23533730" },
-    { image: Alfarizi, name: "Alfarizhi Siregar", nim: "23533730" },
-    { image: Fauzan, name: "Fikri Fauzan", nim: "23533730" },
+    { image: Baqir, name: "Muhammad Rafa El-Baqir", nim: "2386208083" },
+    { image: Rifaldy, name: "Muhammad Rifaldy", nim: "2386208063" },
+    { image: Ibra, name: "Mohammed Ibra Rusel", nim: "2386208058" },
+    { image: Rizkiman, name: "Muhammad Rizkiman", nim: "2386208085" },
+    { image: Hidayat, name: "Muhammad Hidayat", nim: "2386208059" },
+    { image: Alfarizi, name: "Alfarizhi Siregar", nim: "2386208069" },
+    { image: Fauzan, name: "Fikri Fauzan", nim: "2386208079" },
   ];
   return (
     <div>
@@ -77,7 +77,7 @@ export default function Home() {
             ))}
           </div>
           <a
-            href="Contact"
+            href="About"
             className="mb-2 px-4 py-2 bg-red-800 text-white font-bold rounded-full text-sm text-center font-poppins"
           >
             Sejarah Perkembangan Islam
