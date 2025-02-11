@@ -1,14 +1,30 @@
-:root
-{
+:root {
   background-color: white;
 }
 
-.one
-{
-  -webkit-text-stroke:white 2px
+.one {
+  -webkit-text-stroke: white 2px;
 }
 
-.two
-{
-  -webkit-text-stroke:rgb(153 27 27 / var(--tw-text-opacity, 1)) 2px
+.two {
+  -webkit-text-stroke: rgb(153 27 27 / var(--tw-text-opacity, 1)) 2px;
+}
+.peta div div a {
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.655);
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.peta div div a:hover {
+  transform: translateY(-0.25em);
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.655);
+  backdrop-filter: blur(4px);
+  transition: all 0.5s;
+}
+
+.peta {
+  background-image: url("./assets/table.jpg");
+  background-size: cover;
 }
