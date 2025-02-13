@@ -3,12 +3,9 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import "./Navbar.css";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -25,12 +22,12 @@ export default function Navbar() {
   const location = useLocation(); // Ambil lokasi halaman saat ini
 
   return (
-    <Disclosure as="nav" className="sticky top-0 bg-red-800 z-10">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <Disclosure as="nav" className="sticky top-0  z-50 mx-2 my-2">
+      <div className="nav mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 rounded-lg">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button */}
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-red-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2  hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <Bars3Icon
                 aria-hidden="true"
                 className="block size-6 group-data-[open]:hidden"
@@ -57,8 +54,8 @@ export default function Navbar() {
                     to={item.href}
                     className={classNames(
                       location.pathname === item.href
-                        ? "text-white bg-red-700"
-                        : "text-white hover:bg-red-700 hover:text-white",
+                        ? "" //Tempat untuk menentukan warna teks aktif
+                        : " hover:text-white",
                       "rounded-md px-3 py-2 text-sm font-medium"
                     )}
                   >
@@ -117,16 +114,14 @@ export default function Navbar() {
       </div>
 
       <DisclosurePanel className="sm:hidden">
-        <div className="space-y-1 px-2 pb-3 pt-2">
+        <div className="nav1 space-y-1 px-2 pb-3 pt-2">
           {navigation.map((item) => (
             <DisclosureButton
               key={item.name}
               as={Link}
               to={item.href}
               className={classNames(
-                location.pathname === item.href
-                  ? "text-white"
-                  : "text-white hover:bg-red-700 hover:text-white",
+                location.pathname === item.href ? "" : "  hover:text-white",
                 "block rounded-md px-3 py-2 text-base font-medium"
               )}
             >

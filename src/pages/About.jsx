@@ -8,7 +8,17 @@ export default function Home() {
       <Navbar />
       <div className="h-screen relative">
         <div className="h-screen flex flex-col items-center bg-blue-50 relative justify-center">
-          <h1 className="text-4xl font-bold text-red-800">Pembahasan</h1>
+          <iframe
+            className="h-full w-full pointer-events-none"
+            width="789"
+            height="325"
+            src="https://www.youtube.com/embed/RAIGM8pFLdg?autoplay=1&mute=1&loop=1&playlist=RAIGM8pFLdg"
+            title="[Best Trailer] Muhammad Al Fatih Penakluk Konstantinopel"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
 
