@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import peta from "../assets/peta.png";
-
+import Slider from "../components/Slider";
 export default function Home() {
   return (
     <div className="h-auto">
@@ -21,7 +21,7 @@ export default function Home() {
           ></iframe>
         </div>
       </div>
-
+      <Slider />
       {/* Container untuk gambar dengan posisi relatif */}
       <div className="peta flex justify-center items-center relative pt-5 pb-5">
         <div className="relative w-[90vw] sm:w-[70vw] md:w-[70vw]">

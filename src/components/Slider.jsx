@@ -1,0 +1,61 @@
+import React from "react";
+
+const reviews = [
+  {
+    name: "Zaman Rasulullah SAW",
+    img: "https://example.com/star-image.png",
+  },
+  {
+    name: "Zaman Khulafaur Rasyidin",
+    img: "https://example.com/star-image.png",
+  },
+  {
+    name: "Zaman Khilafah Ummayah",
+    img: "https://example.com/star-image.png",
+  },
+  {
+    name: "Zaman Khilafah Abassiyah",
+    img: "https://example.com/star-image.png",
+  },
+  {
+    name: "Zaman Khilafah Utsmaniyyah",
+    img: "https://example.com/star-image.png",
+  },
+  {
+    name: "Zaman Sekarang",
+    img: "https://example.com/star-image.png",
+  },
+];
+
+const ReviewCard = ({ img, name }) => {
+  return (
+    <figure
+      className="relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border p-4
+        border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]
+        dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+    >
+      <div className="flex flex-row items-center gap-2">
+        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <div className="flex flex-col">
+          <figcaption className="text-sm font-medium dark:text-white">
+            {name}
+          </figcaption>
+        </div>
+      </div>
+    </figure>
+  );
+};
+
+const Slider = () => {
+  return (
+    <div className="relative w-full overflow-hidden">
+      <div className="flex w-max animate-[marquee_10s_linear_infinite] space-x-4 p-4">
+        {reviews.concat(reviews).map((review, index) => (
+          <ReviewCard key={index} {...review} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Slider;
