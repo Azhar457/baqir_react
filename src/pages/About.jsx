@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import peta from "../assets/peta.png";
 import Slider from "../components/Slider";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Timeline from "../components/Timeline";
 import "./About.css";
 
