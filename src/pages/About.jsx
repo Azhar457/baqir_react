@@ -2,6 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import peta from "../assets/peta.png";
 import Slider from "../components/Slider";
+import Footer from "../components/footer";
+import Timeline from "../components/Timeline";
+import "./About.css";
+
 export default function Home() {
   return (
     <div className="h-auto">
@@ -32,43 +36,53 @@ export default function Home() {
           <div className="absolute inset-0 grid grid-cols-3 grid-rows-2">
             <a
               href="#1"
-              className="w-full h-full text-white flex items-center justify-center"
+              className="w-full h-full text-white flex items-center justify-center text-center "
             >
-              1
+              Zaman Rasulullah
             </a>
             <a
               href="#3"
-              className="w-full h-full text-white flex items-center justify-center "
+              className="w-full h-full text-white flex items-center justify-center text-center "
             >
-              3
+              Zaman Khilafah Umayyah
             </a>
             <a
               href="#4"
-              className="w-full h-full text-white flex items-center justify-center "
+              className="w-full h-full text-white flex items-center justify-center text-center "
             >
-              4
+              Zaman Khilafah Abbasiyah
             </a>
             <a
               href="#2"
-              className="w-full h-full text-white flex items-center justify-center "
+              className="w-full h-full text-white flex items-center justify-center text-center "
             >
-              2
+              Zaman Khulafaur Rasyidin
             </a>
             <a
               href="#5"
-              className="w-full h-full text-white flex items-center justify-center "
+              className="w-full h-full text-white flex items-center justify-center text-center "
             >
-              5
+              Zaman Khilafah Turki Ustmani
             </a>
             <a
               href="#6"
-              className="w-full h-full text-white flex items-center justify-center "
+              className="w-full h-full text-white flex items-center justify-center text-center "
             >
-              6
+              Zaman Sekarang
             </a>
           </div>
         </div>
       </div>
+      <div className="h-auto">
+        <Timeline />
+      </div>
+      <div className="h-screen" id="1"></div>
+      <div className="h-screen" id="2"></div>
+      <div className="h-screen" id="3"></div>
+      <div className="h-screen" id="4"></div>
+      <div className="h-screen" id="5"></div>
+      <div className="h-screen" id="6"></div>
+      <Footer />
     </div>
   );
 }
