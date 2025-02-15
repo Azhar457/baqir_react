@@ -13,13 +13,15 @@
 .nav1 a {
   font-family: "Poppins", sans-serif !important;
   font-weight: 700 !important;
-  font-size: large !important;
+  font-size: x-large !important;
   color: white !important;
+  -webkit-text-stroke: rgb(0, 0, 0) 1px;
 }
 
 .nav a {
   font-family: "Poppins", sans-serif !important;
   font-weight: 700 !important;
-  font-size: large !important;
+  font-size: x-large !important;
   color: white !important;
+  -webkit-text-stroke: rgb(0, 0, 0) 1px;
 }
