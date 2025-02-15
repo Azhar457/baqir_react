@@ -10,7 +10,7 @@ import "./Navbar.css";
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Pembahasan", href: "/about", current: false },
-  { name: "Projects", href: "/projects", current: false },
+  // { name: "Projects", href: "/projects", current: false },
   { name: "Contact", href: "/contact", current: false },
 ];
 

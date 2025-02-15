@@ -10,7 +10,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
+// import Projects from "./pages/Projects";
 // import Preloader from "./components/Preloader";
 import "./index.css";
 
@@ -22,7 +22,7 @@ const Main = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/projects" element={<Projects />} /> */}
       </Routes>
     </>
   );
