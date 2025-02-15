@@ -76,12 +76,228 @@ export default function Home() {
       <div className="h-auto">
         <Timeline />
       </div>
-      <div className="h-screen" id="1"></div>
-      <div className="h-screen" id="2"></div>
-      <div className="h-screen" id="3"></div>
-      <div className="h-screen" id="4"></div>
-      <div className="h-screen" id="5"></div>
-      <div className="h-screen" id="6"></div>
+      <div className="h-auto" id="1">
+        <section class="bg-gray-100">
+          <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="max-w-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                  Perkembangan Islam Zaman Rasulullah ﷺ
+                </h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  quis eros at lacus feugiat hendrerit sed ut tortor.
+                  Suspendisse et magna quis elit efficitur consequat. Mauris
+                  eleifend velit a pretium iaculis. Donec sagittis velit et
+                  magna euismod, vel aliquet nulla malesuada. Nunc pharetra
+                  massa lectus, a fermentum arcu volutpat vel.
+                </p>
+                <div class="mt-8">
+                  <a
+                    href="#"
+                    class="text-blue-500 hover:text-blue-600 font-medium"
+                  >
+                    Lihat Di Youtube
+                    <span class="ml-2">&#8594;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <img
+                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  alt="About Us Image"
+                  class="object-cover rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="h-auto" id="2">
+        <section class="bg-gray-100">
+          <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="mt-12 md:mt-0">
+                <img
+                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  alt="About Us Image"
+                  class="object-cover rounded-lg shadow-md"
+                />
+              </div>
+              <div class="max-w-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                  Perkembangan Islam Zaman Khulafa'ur Rasyidin
+                </h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  quis eros at lacus feugiat hendrerit sed ut tortor.
+                  Suspendisse et magna quis elit efficitur consequat. Mauris
+                  eleifend velit a pretium iaculis. Donec sagittis velit et
+                  magna euismod, vel aliquet nulla malesuada. Nunc pharetra
+                  massa lectus, a fermentum arcu volutpat vel.
+                </p>
+                <div class="mt-8">
+                  <a
+                    href="#"
+                    class="text-blue-500 hover:text-blue-600 font-medium"
+                  >
+                    Lihat Di Youtube
+                    <span class="ml-2">&#8594;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="h-auto" id="3">
+        <section class="bg-gray-100">
+          <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="max-w-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                  Perkembangan Islam Zaman Rasulullah ﷺ
+                </h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  quis eros at lacus feugiat hendrerit sed ut tortor.
+                  Suspendisse et magna quis elit efficitur consequat. Mauris
+                  eleifend velit a pretium iaculis. Donec sagittis velit et
+                  magna euismod, vel aliquet nulla malesuada. Nunc pharetra
+                  massa lectus, a fermentum arcu volutpat vel.
+                </p>
+                <div class="mt-8">
+                  <a
+                    href="#"
+                    class="text-blue-500 hover:text-blue-600 font-medium"
+                  >
+                    Lihat Di Youtube
+                    <span class="ml-2">&#8594;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <img
+                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  alt="About Us Image"
+                  class="object-cover rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="h-auto" id="4">
+        <section class="bg-gray-100">
+          <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="mt-12 md:mt-0">
+                <img
+                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  alt="About Us Image"
+                  class="object-cover rounded-lg shadow-md"
+                />
+              </div>
+              <div class="max-w-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                  Perkembangan Islam Zaman Khulafa'ur Rasyidin
+                </h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  quis eros at lacus feugiat hendrerit sed ut tortor.
+                  Suspendisse et magna quis elit efficitur consequat. Mauris
+                  eleifend velit a pretium iaculis. Donec sagittis velit et
+                  magna euismod, vel aliquet nulla malesuada. Nunc pharetra
+                  massa lectus, a fermentum arcu volutpat vel.
+                </p>
+                <div class="mt-8">
+                  <a
+                    href="#"
+                    class="text-blue-500 hover:text-blue-600 font-medium"
+                  >
+                    Lihat Di Youtube
+                    <span class="ml-2">&#8594;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="h-auto" id="5">
+        <section class="bg-gray-100">
+          <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="max-w-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                  Perkembangan Islam Zaman Rasulullah ﷺ
+                </h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  quis eros at lacus feugiat hendrerit sed ut tortor.
+                  Suspendisse et magna quis elit efficitur consequat. Mauris
+                  eleifend velit a pretium iaculis. Donec sagittis velit et
+                  magna euismod, vel aliquet nulla malesuada. Nunc pharetra
+                  massa lectus, a fermentum arcu volutpat vel.
+                </p>
+                <div class="mt-8">
+                  <a
+                    href="#"
+                    class="text-blue-500 hover:text-blue-600 font-medium"
+                  >
+                    Lihat Di Youtube
+                    <span class="ml-2">&#8594;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <img
+                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  alt="About Us Image"
+                  class="object-cover rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="h-auto" id="6">
+        <section class="bg-gray-100">
+          <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+              <div class="mt-12 md:mt-0">
+                <img
+                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
+                  alt="About Us Image"
+                  class="object-cover rounded-lg shadow-md"
+                />
+              </div>
+              <div class="max-w-lg">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                  Perkembangan Islam Zaman Khulafa'ur Rasyidin
+                </h2>
+                <p class="mt-4 text-gray-600 text-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  quis eros at lacus feugiat hendrerit sed ut tortor.
+                  Suspendisse et magna quis elit efficitur consequat. Mauris
+                  eleifend velit a pretium iaculis. Donec sagittis velit et
+                  magna euismod, vel aliquet nulla malesuada. Nunc pharetra
+                  massa lectus, a fermentum arcu volutpat vel.
+                </p>
+                <div class="mt-8">
+                  <a
+                    href="#"
+                    class="text-blue-500 hover:text-blue-600 font-medium"
+                  >
+                    Lihat Di Youtube
+                    <span class="ml-2">&#8594;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <Footer />
     </div>
   );

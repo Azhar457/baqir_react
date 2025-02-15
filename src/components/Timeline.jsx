@@ -11,12 +11,15 @@ export function Timeline() {
             {/* Masa Rasulullah SAW */}
             <div className="mb-20 mt-20 flex items-center w-full">
               <div className="w-1/2 text-right pr-5 md:pr-12">
-                <h5 className="text-lg md:text-2xl font-semibold text-white">
+                <h5
+                  className="text-lg md:text-2xl font-semibold text-white"
+                  data-aos="fade-right"
+                >
                   610 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Wahyu Pertama
                 </h6>
@@ -27,13 +30,16 @@ export function Timeline() {
             </div>
 
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   622 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white-100"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Hijrah ke Madinah
                 </h6>
@@ -45,13 +51,16 @@ export function Timeline() {
 
             {/* Masa Khulafaur Rasyidin */}
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   632 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Wafatnya Rasulullah
                 </h6>
@@ -63,13 +72,16 @@ export function Timeline() {
             </div>
 
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   632-634 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Masa Abu Bakar Ash-Shiddiq
                 </h6>
@@ -79,13 +91,16 @@ export function Timeline() {
               </div>
             </div>
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   634-644 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Masa Umar bin Khattab
                 </h6>
@@ -95,13 +110,16 @@ export function Timeline() {
               </div>
             </div>
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   656-661 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Masa Ali bin Abi Thalib
                 </h6>
@@ -111,13 +129,16 @@ export function Timeline() {
               </div>
             </div>
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   644-656 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Masa Utsman bin Affan
                 </h6>
@@ -129,13 +150,16 @@ export function Timeline() {
 
             {/* Masa Kekhalifahan */}
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   661-750 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white-400"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Kekhalifahan Umayyah
                 </h6>
@@ -147,13 +171,16 @@ export function Timeline() {
             </div>
 
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   750–1258 M dan 1261–1517 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Kekhalifahan Abbasiyah
                 </h6>
@@ -164,32 +191,38 @@ export function Timeline() {
               </div>
             </div>
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   1517–1924 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Kekhalifahan Utsmaniyah
                 </h6>
                 <p className="text-white">
-                    Pusat pemerintahan berada di Turki dan menjadi era keemasan
-                    Islam.
+                  Pusat pemerintahan berada di Turki dan menjadi era keemasan
+                  Islam.
                 </p>
               </div>
             </div>
 
             {/* Zaman Modern */}
             <div className="mb-20 mt-20 flex items-center w-full">
-              <div className="w-1/2 text-right pr-5 md:pr-12">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
                   1924-Sekarang
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12">
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
                 <h6 className="text-md md:text-xl font-semibold text-white mb-3">
                   Zaman Modern
                 </h6>
