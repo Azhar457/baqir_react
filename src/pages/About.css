@@ -23,7 +23,8 @@
 }
 
 .footer {
-  background-image: linear-gradient(#f3f4f6, rgba(196, 193, 193, 0.5));
+  background-color: #f3f4f6;
   backdrop-filter: blur(4px);
-  text-shadow: #000000 0.1em 0.1em 0.2em;
+  font-family: Poppins;
+  font-weight: 700;
 }

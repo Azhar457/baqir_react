@@ -80,7 +80,11 @@ export default function Home() {
         <section class="bg-gray-100">
           <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-              <div class="max-w-lg">
+              <div
+                class="max-w-lg"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
                 <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                   Perkembangan Islam Zaman Rasulullah ﷺ
                 </h2>

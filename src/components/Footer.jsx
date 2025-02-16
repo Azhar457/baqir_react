@@ -6,8 +6,8 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-4 lg:px-4 lg:pt-4">
+        {/* <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <img className="h-20" src="/Arabic.svg" alt="Company name" />
             <div className="flex space-x-6">
@@ -43,93 +43,13 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Solutions
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Marketing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Analytics
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Commerce
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Insights
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Support
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Documentation
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Guides
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      API Status
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <div className="mt-4 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
                   Company
                 </h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-2 space-y-4">
                   <li>
                     <a
                       href="#"
@@ -144,30 +64,6 @@ export default function Footer() {
                       className="text-sm leading-6 text-white hover:text-white"
                     >
                       Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Jobs
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Press
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="text-sm leading-6 text-white hover:text-white"
-                    >
-                      Partners
                     </a>
                   </li>
                 </ul>
@@ -205,9 +101,10 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-white">
+        </div> */}
+        <div className="mt-2 border-t border-gray-900/10 pt-2 sm:mt-4 lg:mt-4 text-center">
+          <hr />
+          <p className="text-sm leading-5 text-black">
             &copy; 2024 Baqir, Inc. All rights reserved.
           </p>
         </div>

@@ -86,7 +86,8 @@ export function Timeline() {
                   Masa Abu Bakar Ash-Shiddiq
                 </h6>
                 <p className="text-white">
-                  Masa pemerintahan Khalifah Abu Bakar Ash-Shiddiq.
+                  Masa kekhalifahan Abu Bakar Ash-Shiddiq merupakan khalifah
+                  pertama Islam setelah wafatnya Rasulullah Muhammad SAW.
                 </p>
               </div>
             </div>
@@ -105,26 +106,10 @@ export function Timeline() {
                   Masa Umar bin Khattab
                 </h6>
                 <p className="text-white">
-                  Masa pemerintahan Khalifah Umar bin Khattab.
-                </p>
-              </div>
-            </div>
-            <div className="mb-20 mt-20 flex items-center w-full">
-              <div
-                className="w-1/2 text-right pr-5 md:pr-12"
-                data-aos="fade-right"
-              >
-                <h5 className="text-lg md:text-2xl font-semibold text-white">
-                  656-661 M
-                </h5>
-              </div>
-              <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
-              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
-                <h6 className="text-md md:text-xl font-semibold text-white mb-3">
-                  Masa Ali bin Abi Thalib
-                </h6>
-                <p className="text-white">
-                  Masa pemerintahan Khalifah Ali bin Abi Thalib.
+                  Sebelum wafat, Abu Bakar mewasiatkan kekhalifahannya
+                  digantikan oleh Umar bin Khattab. Umar mengalahkan dua
+                  kekuatan besar saat itu yakni Romawi di barat dan Persia di
+                  Timur.
                 </p>
               </div>
             </div>
@@ -143,11 +128,34 @@ export function Timeline() {
                   Masa Utsman bin Affan
                 </h6>
                 <p className="text-white">
-                  Masa pemerintahan Khalifah Utsman bin Affan.
+                  Utsman merupakan Khalifah ketiga dari Rashidun Khulafaur dan
+                  memiliki masa pemerintahan terlama. Memberikan dukungan
+                  finansial kepada para sarjana dan guru-guru agama.
                 </p>
               </div>
             </div>
-
+            <div className="mb-20 mt-20 flex items-center w-full">
+              <div
+                className="w-1/2 text-right pr-5 md:pr-12"
+                data-aos="fade-right"
+              >
+                <h5 className="text-lg md:text-2xl font-semibold text-white">
+                  656-661 M
+                </h5>
+              </div>
+              <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
+              <div className="w-1/2 pl-5 md:pl-12" data-aos="fade-left">
+                <h6 className="text-md md:text-xl font-semibold text-white mb-3">
+                  Masa Ali bin Abi Thalib
+                </h6>
+                <p className="text-white">
+                  Ali adalah khalifah keempat Islam setelah Abu Bakar Ash
+                  Shiddiq, Umar bin Khattab, dan Utsman bin Affan.Ali
+                  mengembangkan kota Kufah menjadi pusat ilmu pengetahuan,
+                  khususnya dalam mempelajari Al-Qur'an dan hadits.
+                </p>
+              </div>
+            </div>
             {/* Masa Kekhalifahan */}
             <div className="mb-20 mt-20 flex items-center w-full">
               <div
@@ -164,8 +172,9 @@ export function Timeline() {
                   Kekhalifahan Umayyah
                 </h6>
                 <p className="text-white">
-                  Dinasti Umayyah berpusat di Damaskus dan memperluas wilayah
-                  Islam.
+                  Masa kejayaan Bani Umayyah terwujud ketika dipimpin oleh
+                  Khalifah Al-Walid bin Abdul Malik dan Khalifah Umar bin Abdul
+                  Aziz.
                 </p>
               </div>
             </div>
@@ -185,8 +194,10 @@ export function Timeline() {
                   Kekhalifahan Abbasiyah
                 </h6>
                 <p className="text-white">
-                  Pusat pemerintahan berpindah ke Baghdad dan menjadi era
-                  keemasan Islam.
+                  Puncak kejayaan Abbasiyah terjadi pada masa pemerintahan
+                  Khalifah Harun Ar-Rasyid (786-809 M) dan Al-Ma'mun (813-833
+                  M). Pada masa ini, negara Abbasiyah menjadi negara yang
+                  makmur.
                 </p>
               </div>
             </div>
@@ -196,7 +207,7 @@ export function Timeline() {
                 data-aos="fade-right"
               >
                 <h5 className="text-lg md:text-2xl font-semibold text-white">
-                  1517–1924 M
+                  1300–1922 M
                 </h5>
               </div>
               <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-white"></div>
@@ -205,8 +216,10 @@ export function Timeline() {
                   Kekhalifahan Utsmaniyah
                 </h6>
                 <p className="text-white">
-                  Pusat pemerintahan berada di Turki dan menjadi era keemasan
-                  Islam.
+                  Kesultanan Utsmaniyah mencapai masa keemasan pada abad ke-16
+                  di era pemerintahan Sultan Salim I. Sang khalifah fokus pada
+                  ekspansi ke arah Selatan Turki dan tak ingin kehilangan
+                  wilayah penaklukan.
                 </p>
               </div>
             </div>

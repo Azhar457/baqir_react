@@ -11,6 +11,7 @@ import "./index.css";
 
 AOS.init({
   duration: 1700,
+  mirror: true,
 });
 const Main = () => {
   return (
