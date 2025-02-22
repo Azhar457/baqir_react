@@ -113,11 +113,17 @@ export default function Home() {
                 </div>
               </div>
               <div class="mt-12 md:mt-0">
-                <img
-                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-                  alt="About Us Image"
-                  class="object-cover rounded-lg shadow-md"
-                />
+                <iframe
+                  className="object-cover rounded-lg shadow-md h-[25em] w-full"
+                  width="670"
+                  height="377"
+                  src="https://www.youtube.com/embed/dqVNIVlQqJE"
+                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
@@ -128,11 +134,17 @@ export default function Home() {
           <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
               <div class="mt-12 md:mt-0">
-                <img
-                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-                  alt="About Us Image"
-                  class="object-cover rounded-lg shadow-md"
-                />
+                <iframe
+                  className="object-cover rounded-lg shadow-md h-[25em] w-full"
+                  width="670"
+                  height="377"
+                  src="https://www.youtube.com/embed/dqVNIVlQqJE?start=141"
+                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               </div>
               <div class="max-w-lg" data-aos="fade-left">
                 <h2 class="text-3xl font-extrabold text-left text-gray-900 sm:text-3xl">
@@ -206,11 +218,17 @@ export default function Home() {
                 </div>
               </div>
               <div class="mt-12 md:mt-0">
-                <img
-                  src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-                  alt="About Us Image"
-                  class="object-cover rounded-lg shadow-md"
-                />
+                <iframe
+                  className="object-cover rounded-lg shadow-md h-[25em] w-full"
+                  width="670"
+                  height="377"
+                  src="https://www.youtube.com/embed/dqVNIVlQqJE?start=1025"
+                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
@@ -329,14 +347,14 @@ export default function Home() {
                   tantangan dan peluang baru. Perkembangan teknologi dan
                   globalisasi memungkinkan umat Islam untuk terhubung dengan
                   lebih luas, namun juga menimbulkan konflik dan ketidakpastian.
-                  Pendidikan dan dakwah menjadi kunci dalam memperkuat
-                  identitas dan nilai-nilai Islam di tengah arus modernisasi.
-                  Umat Islam di seluruh dunia berjuang untuk mempertahankan
-                  keberagaman budaya dan agama, sambil beradaptasi dengan
-                  perubahan zaman. Masa depan Islam tergantung pada kemampuan
-                  umatnya untuk memahami dan menerapkan ajaran Islam dalam
-                  konteks kontemporer, menjadikan Islam sebagai rahmat bagi
-                  seluruh alam semesta.
+                  Pendidikan dan dakwah menjadi kunci dalam memperkuat identitas
+                  dan nilai-nilai Islam di tengah arus modernisasi. Umat Islam
+                  di seluruh dunia berjuang untuk mempertahankan keberagaman
+                  budaya dan agama, sambil beradaptasi dengan perubahan zaman.
+                  Masa depan Islam tergantung pada kemampuan umatnya untuk
+                  memahami dan menerapkan ajaran Islam dalam konteks
+                  kontemporer, menjadikan Islam sebagai rahmat bagi seluruh alam
+                  semesta.
                 </p>
                 <div class="mt-8">
                   <a
