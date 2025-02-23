@@ -104,8 +104,9 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/embed/dqVNIVlQqJE"
                     class="text-blue-500 hover:text-blue-600 font-medium"
+                    target="_blank"
                   >
                     Lihat Di Youtube
                     <span class="ml-2">&#8594;</span>
@@ -168,8 +169,9 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=141"
                     class="text-blue-500 hover:text-blue-600 font-medium"
+                    target="_blank"
                   >
                     Lihat Di Youtube
                     <span class="ml-2">&#8594;</span>
@@ -209,8 +211,9 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1025"
                     class="text-blue-500 hover:text-blue-600 font-medium"
+                    target="_blank"
                   >
                     Lihat Di Youtube
                     <span class="ml-2">&#8594;</span>
@@ -251,7 +254,7 @@ export default function Home() {
                   allowfullscreen
                 ></iframe>
               </div>
-              <div class="max-w-lg">
+              <div class="max-w-lg" data-aos="fade-left">
                 <h2 class="text-3xl font-extrabold text-left text-gray-900 sm:text-3xl">
                   Zaman Khilafah Abbasiyah
                 </h2>
@@ -272,8 +275,9 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1245"
                     class="text-blue-500 hover:text-blue-600 font-medium"
+                    target="_blank"
                   >
                     Lihat Di Youtube
                     <span class="ml-2">&#8594;</span>
@@ -314,8 +318,9 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1380"
                     class="text-blue-500 hover:text-blue-600 font-medium"
+                    target="_blank"
                   >
                     Lihat Di Youtube
                     <span class="ml-2">&#8594;</span>
@@ -356,7 +361,7 @@ export default function Home() {
                   allowfullscreen
                 ></iframe>
               </div>
-              <div class="max-w-lg">
+              <div class="max-w-lg" data-aos="fade-left">
                 <h2 class="text-3xl font-extrabold text-left text-gray-900 sm:text-3xl">
                   Zaman Sekarang
                 </h2>
@@ -376,8 +381,9 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="#"
+                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1380"
                     class="text-blue-500 hover:text-blue-600 font-medium"
+                    target="_blank"
                   >
                     Lihat Di Youtube
                     <span class="ml-2">&#8594;</span>
