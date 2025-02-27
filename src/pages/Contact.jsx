@@ -38,7 +38,7 @@ export default function Home() {
       image: Hidayat,
       name: "Muhammad Hidayat",
       nim: "2386208059",
-      ig: "https://www.instagram.com/",
+      ig: "https://www.instagram.com/jaya.xtd",
     },
     {
       image: Alfarizi,
