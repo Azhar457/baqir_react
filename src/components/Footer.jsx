@@ -105,7 +105,7 @@ export default function Footer() {
         <div className="mt-2 border-t border-gray-900/10 pt-2 sm:mt-4 lg:mt-4 text-center">
           <hr />
           <p className="text-sm leading-5 text-black">
-            &copy; 2024 Baqir, Inc. All rights reserved.
+            &copy; 2025 PTIQ JKT, Inc. All rights reserved.
           </p>
         </div>
       </div>
