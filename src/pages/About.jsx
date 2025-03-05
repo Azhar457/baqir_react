@@ -104,7 +104,7 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="https://www.youtube.com/embed/dqVNIVlQqJE"
+                    href="https://youtu.be/moiFBDSjvHQ"
                     class="text-blue-500 hover:text-blue-600 font-medium"
                     target="_blank"
                   >
@@ -118,8 +118,8 @@ export default function Home() {
                   className="object-cover rounded-lg shadow-md h-[25em] w-full"
                   width="670"
                   height="377"
-                  src="https://www.youtube.com/embed/dqVNIVlQqJE"
-                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  src="https://www.youtube.com/embed/moiFBDSjvHQ"
+                  title="Kisah Singkat Perjalanan Hidup Nabi Muhammad SAW Hingga Wafat"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
@@ -139,8 +139,8 @@ export default function Home() {
                   className="object-cover rounded-lg shadow-md h-[25em] w-full"
                   width="670"
                   height="377"
-                  src="https://www.youtube.com/embed/dqVNIVlQqJE?start=141"
-                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  src="https://www.youtube.com/embed/GAS0W9OFsPA"
+                  title="SEJARAH KEBUDAYAAN ISLAM PADA MASA KHULAFĀ AR-RASYIDĪN"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
@@ -169,7 +169,7 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=141"
+                    href="https://www.youtube.com/embed/GAS0W9OFsPA"
                     class="text-blue-500 hover:text-blue-600 font-medium"
                     target="_blank"
                   >
@@ -211,7 +211,7 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1025"
+                    href="https://www.youtube.com/embed/1Kb1vfmnWuw"
                     class="text-blue-500 hover:text-blue-600 font-medium"
                     target="_blank"
                   >
@@ -225,8 +225,8 @@ export default function Home() {
                   className="object-cover rounded-lg shadow-md h-[25em] w-full"
                   width="670"
                   height="377"
-                  src="https://www.youtube.com/embed/dqVNIVlQqJE?start=1025"
-                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  src="https://www.youtube.com/embed/1Kb1vfmnWuw"
+                  title="SEJARAH KEBUDAYAAN ISLAM PADA MASA BANI UMMAYAH"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
@@ -246,8 +246,8 @@ export default function Home() {
                   className="object-cover rounded-lg shadow-md h-[25em] w-full"
                   width="670"
                   height="377"
-                  src="https://www.youtube.com/embed/dqVNIVlQqJE?start=1245"
-                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  src="https://www.youtube.com/embed/exO4ltsJqBw"
+                  title="SEJARAH KEBUDAYAAN ISLAM PADA MASA BANI ÁƁƁAŚÍYAH"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
@@ -275,7 +275,7 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1245"
+                    href="https://www.youtube.com/embed/exO4ltsJqBw"
                     class="text-blue-500 hover:text-blue-600 font-medium"
                     target="_blank"
                   >
@@ -318,7 +318,7 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1380"
+                    href="https://www.youtube.com/embed/1812V8yEn_w"
                     class="text-blue-500 hover:text-blue-600 font-medium"
                     target="_blank"
                   >
@@ -332,8 +332,8 @@ export default function Home() {
                   className="object-cover rounded-lg shadow-md h-[25em] w-full"
                   width="670"
                   height="377"
-                  src="https://www.youtube.com/embed/dqVNIVlQqJE?start=1380"
-                  title="SEJARAH KHILAFAH dari awal hingga akhir"
+                  src="https://www.youtube.com/embed/1812V8yEn_w"
+                  title="SEJARAH KEBUDAYAAN ISLAM PADA MASA BANI UTŚMANI"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
