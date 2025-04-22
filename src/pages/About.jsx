@@ -363,7 +363,7 @@ export default function Home() {
               </div>
               <div class="max-w-lg" data-aos="fade-left">
                 <h2 class="text-3xl font-extrabold text-left text-gray-900 sm:text-3xl">
-                  Zaman Sekarang
+                  Pasca Runtuhnya Turki Utsmani
                 </h2>
                 <p class="mt-4 text-gray-600 text-sm text-justify">
                   Islam terus berkembang di era modern, menghadapi berbagai
@@ -381,7 +381,7 @@ export default function Home() {
                 </p>
                 <div class="mt-8">
                   <a
-                    href="https://www.youtube.com/embed/dqVNIVlQqJE?start=1380"
+                    href="https://www.youtube.com/watch?v=-JkkloZEazA"
                     class="text-blue-500 hover:text-blue-600 font-medium"
                     target="_blank"
                   >

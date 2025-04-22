@@ -1,5 +1,5 @@
 # Website ini dibuat untuk tugas Memenuhi Mata Kuliah Mengenai Perkembangan Islam
-![alt](https://baqir-perkembanganislam.netlify.app/)
+![alt](https://baqir-perkembanganislam.netlify.app/assets/peta-CoNbrBmp.png/)
 
 
 # React + Vite
