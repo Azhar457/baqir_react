@@ -349,7 +349,16 @@ export default function Home() {
           <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
               <div class="mt-12 md:mt-0">
-                <iframe width="670" height="377" src="https://www.youtube.com/embed/-JkkloZEazA" title="KH.SAID AQIL SIRADJ | PERJALANAN POLITIK TIMUR TENGAH | DARI MULAI RUNTUHNYA KHILAFAH ISLAM TURKI |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                <iframe 
+                className="object-cover rounded-lg shadow-md h-[25em] w-full"
+                width="670"
+                height="377" 
+                src="https://www.youtube.com/embed/-JkkloZEazA" 
+                title="KH.SAID AQIL SIRADJ | PERJALANAN POLITIK TIMUR TENGAH | DARI MULAI RzUNTUHNYA KHILAFAH ISLAM TURKI |" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
                 </iframe>
               </div>
               <div class="max-w-lg" data-aos="fade-left">
